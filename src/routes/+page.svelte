@@ -86,5 +86,14 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Build your breakthrough"
+	subtitle="Before institutional capital arrives"
+	description="We back relentless technical founders at day zero with €500k checks and deep domain expertise. Build your prototype, prove your thesis, and maintain the equity you need for your next round."
+	imageSrc="/generated/image-a-satisfied-technical-founder-stands-in-.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Discuss your venture", variant: "primary" },
+		{ href: "/portfolio", label: "Meet our founders", variant: "secondary" }
+	]}
+/>

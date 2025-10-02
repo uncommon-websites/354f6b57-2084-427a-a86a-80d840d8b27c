@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Marcus Hartmann",
+		role: "Founding Partner",
+		image: "/generated/image-a-professional-venture-capital-founder-i.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I spent years watching brilliant technical founders struggle to find investors who truly understood their science. Most VCs couldn't evaluate the quantum mechanics or AI models that would reshape entire industries. That's why we built Vanagon—to be the capital partner who shows up on day zero, speaks your language, and believes in the mission before the market does."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
